@@ -58,3 +58,15 @@ try:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
+
+### Example Response / Ejemplo de Respuesta
+
+The server response will look like this:
+
+La respuesta del servidor lucirá así:
+
+```json
+{
+    "content": "¡Hola! Estoy muy bien, gracias. ¿Y tú? ¿Cómo va tu día?"
+}
+```
