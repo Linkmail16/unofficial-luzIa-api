@@ -15,7 +15,7 @@ Esta es una sencilla API no oficial para interactuar con LuzIA, creada con Flask
 - **Maintain conversation context** using unique chat IDs.
 - **Simple integration** with any project.
 - **Free to use** for personal or development purposes.
-...
+---
 - **Mantener el contexto de la conversación** utilizando IDs de chat únicos.
 - **Integración sencilla** con cualquier proyecto.
 - **Uso gratuito** para propósitos personales o de desarrollo.
