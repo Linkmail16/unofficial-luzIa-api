@@ -33,11 +33,11 @@ import requests
 
 # Server URL / URL del servidor
 url = "http://195.35.9.209:9474/chat"
-tet = input("Text: ")
+text = input("Text: ")
 
 # Request payload / Datos para la solicitud
 payload = {
-    "content": tet,
+    "content": text,
     "chatid": "test_chat_123"
 }
 
