@@ -37,8 +37,12 @@ text = input("Text: ")
 
 # Request payload / Datos para la solicitud
 payload = {
-    "content": text,
-    "chatid": "test_chat_123"
+    "content": text, # Message to send / Mensaje a enviar
+    "chatid": "test_chat_123", # Unique chat ID / ID unico del chat
+    "chatContext": True # ¨EN¨ Decide whether to use chat history or not (True/False)
+    # ¨EN¨ or simply omit this variable if you want to use context by default
+    # ¨ES¨ Decide si usar un chat con contexto o no (True/False)
+    # ¨ES¨ o simplemente no coloques esta variable si quieres usar contexto
 }
 
 # Request headers / Encabezados para la solicitud
@@ -50,7 +54,6 @@ headers = {
 try:
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
-        print("Server response:")
         print(response.json())
     else:
         print(f"Error: Status code {response.status_code}")
