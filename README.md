@@ -11,7 +11,7 @@ Esta es una sencilla API no oficial para interactuar con LuzIA, creada con Flask
 ---
 
 ## Changelog
-### v1.1 - 2025-02-18 
+### 2025-02-18 
 
 ### 🔹 Added option to enable/disable chat context
 - Now you can decide whether to use conversation history by including the `chatContext` parameter.
@@ -24,7 +24,7 @@ Esta es una sencilla API no oficial para interactuar con LuzIA, creada con Flask
 ---
 
 ## Historial de cambios
-### v1.1 - 2025-02-18 
+### 2025-02-18 
 
 ### 🔹 Añadida opción para activar/desactivar el contexto del chat
 - Ahora puedes decidir si usar el historial de la conversación incluyendo el parámetro `chatContext`.
