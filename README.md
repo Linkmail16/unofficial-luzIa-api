@@ -10,6 +10,32 @@ Esta es una sencilla API no oficial para interactuar con LuzIA, creada con Flask
 
 ---
 
+## Changelog
+### v1.1 - 2025-02-18 
+
+### 🔹 Added option to enable/disable chat context
+- Now you can decide whether to use conversation history by including the `chatContext` parameter.
+- If `"chatContext": false` is sent in the request, the message will be processed **without any previous context**.
+- If `"chatContext"` is omitted or set to `true`, the message will be processed **with full conversation history**.
+
+### 🔹 Improved documentation
+- Added clearer explanations and examples for better integration.
+
+---
+
+## Historial de cambios
+### v1.1 - 2025-02-18 
+
+### 🔹 Añadida opción para activar/desactivar el contexto del chat
+- Ahora puedes decidir si usar el historial de la conversación incluyendo el parámetro `chatContext`.
+- Si envías `"chatContext": false` en la solicitud, el mensaje será procesado **sin historial previo**.
+- Si omites `"chatContext"` o lo estableces en `true`, el mensaje será procesado **con el historial completo de la conversación**.
+
+### 🔹 Mejora en la documentación
+- Se agregaron explicaciones más claras y ejemplos para una mejor integración.
+
+---
+
 ## Features / Características
 
 - **Maintain conversation context** using unique chat IDs.
